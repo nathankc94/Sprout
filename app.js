@@ -17,7 +17,9 @@ document.addEventListener("DOMContentLoaded", event => {
 }); 
 
 
-
+$("#gLog").on("click", function() {
+  console.log("success");
+} )
 
 function googleLogin() {
   const provider = new firebase.auth.GoogleAuthProvider();
