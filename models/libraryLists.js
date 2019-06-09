@@ -1,5 +1,5 @@
 module.exports = function (sequelize, DataTypes) {
- var libraryLists = sequelize.define("libraryLists", {
+    var libraryLists = sequelize.define("libraryLists", {
         title: {
             type: DataTypes.STRING,
             allowNull: false,
