@@ -195,7 +195,7 @@ describe("GET /api/libraryLists", function () {
 
 //API Lists
 
-describe("GET /api/projectExamples", function () {
+describe("GET /api/apiLists", function () {
   // Before each test begins, create a new request server for testing
   // & delete all examples from the db
   beforeEach(function () {
@@ -224,7 +224,7 @@ describe("GET /api/projectExamples", function () {
       ])
       .then(function () {
         // Request the route that returns all examples
-        request.get("/api/projectExamples").end(function (err, res) {
+        request.get("/api/apiListss").end(function (err, res) {
           var responseStatus = res.status;
           var responseBody = res.body;
 
