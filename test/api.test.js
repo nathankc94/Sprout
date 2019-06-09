@@ -21,7 +21,7 @@ describe("GET /api/projectExamples", function () {
 
   it("should find all examples", function (done) {
     // Add some examples to the db to test with
-    db.projectExample
+    db.projectExamples
       .bulkCreate([
         {
           title: "Chores App",
