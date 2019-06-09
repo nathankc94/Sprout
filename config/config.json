@@ -1,14 +1,14 @@
 {
   "development": {
     "username": "root",
-    "password": "",
+    "password": "#Holdon3",
     "database": "sprout_db",
     "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
+    "password": "#Holdon3",
     "database": "testdb",
     "host": "localhost",
     "dialect": "mysql",
